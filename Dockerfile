@@ -1,7 +1,9 @@
 FROM python
 
 RUN pip3 install streamlit
-COPY hello.py /src/
+RUN git clone https://github.com/ReinaldoJr79/aula_darlon.git
 
-WORKDIR /src/
-CMD ["streamlit", "run", "/src/hello.py"]
+CMD ["streamlit", "run", "/aula_darlon/hello.py"]
+
+#WORKDIR /src/
+#CMD ["streamlit", "run", "/src/hello.py"]
