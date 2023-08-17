@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSAO="0.1"
-DHUSER="reinaldoreche"
+DHUSER="darlon"
 
 ## Download da imagem python
 docker pull python
